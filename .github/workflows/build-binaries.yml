@@ -65,7 +65,7 @@ jobs:
           pyinstaller \
             --noconfirm \
             --clean \
-            --name "encrypted-zip-manager" \
+            --name "uenczip" \
             ${{ matrix.pyinstaller_args }} \
             main.py
 
